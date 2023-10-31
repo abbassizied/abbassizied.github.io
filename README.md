@@ -11,7 +11,7 @@ I'm an independent software engineer that loves to create and share useful conte
 $ git clone https://github.com/abbassizied/abbassizied.github.io.git
 
 # Go into the repository
-$ cd abbassizied
+$ cd abbassizied.github.io
 
 # Remove current origin repository
 $ git remote remove origin
