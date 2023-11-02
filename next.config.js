@@ -6,5 +6,5 @@ module.exports = withNextra({
     },
     // basePath: '',  
     // Optional: Change the output directory `out` -> `dist`
-    distDir: 'out',
+    // distDir: 'out',
 })
