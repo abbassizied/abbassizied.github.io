@@ -4,7 +4,7 @@ module.exports = withNextra({
     images: {
         unoptimized: true
     },
-     basePath: '/github-pages',  
+    // basePath: '',  
     // Optional: Change the output directory `out` -> `dist`
     distDir: 'out',
 })
