@@ -24,12 +24,12 @@ author: Abbassi Zied
 
 ## <a name="id-anchor-tag-helper">Anchor Tag Helper</a>
 - <b>Add new attributes to the standard HTML anchor "a" tag.</b>
-- ==By convention==, the attribute names are prefixed with ==asp-==. 
-- The ==asp-controller== attribute assigns the controller used for generating the URL.
-- The ==asp-action== attribute value represents the controller action name included in the generated href attribute. 
-- The ==asp-route-{value}== attribute enables a wildcard route prefix. Any value occupying the =={value}== placeholder is interpreted as a potential route parameter.
-- The ==asp-route== attribute is used for creating a URL linking directly to a named route. 
-- The ==asp-all-route-data== attribute supports the creation of a dictionary of key-value pairs. The key is the parameter name, and the value is the parameter value. 
+- <b>By convention</b>, the attribute names are prefixed with <b>asp-</b>. 
+- The <b>asp-controller</b> attribute assigns the controller used for generating the URL.
+- The <b>asp-action</b> attribute value represents the controller action name included in the generated href attribute. 
+- The <b>asp-route-{value}</b> attribute enables a wildcard route prefix. Any value occupying the <b>{value}</b> placeholder is interpreted as a potential route parameter.
+- The <b>asp-route</b> attribute is used for creating a URL linking directly to a named route. 
+- The <b>asp-all-route-data</b> attribute supports the creation of a dictionary of key-value pairs. The key is the parameter name, and the value is the parameter value. 
 ```
 // asp-controller && asp-action
 <a asp-controller="Speaker"
@@ -65,7 +65,7 @@ var parms = new Dictionary<string, string>
 
 ## <a name="id-cache-tag-helper">Cache Tag Helper</a>
 - The Cache Tag Helper provides the ability to improve the performance of your ASP.NET Core app by caching its content to the internal ASP.NET Core cache provider. 
-- ==Additional attributes==: vary-by-header, vary-by-query, vary-by-route, vary-by-cookie, vary-by-user, priority 
+- <b>Additional attributes</b>: vary-by-header, vary-by-query, vary-by-route, vary-by-cookie, vary-by-user, priority 
 ```
 // The following Razor markup caches the current date:
 <cache>@DateTime.Now</cache>
@@ -82,7 +82,7 @@ var parms = new Dictionary<string, string>
 ```
 
 ## <a name="id-the-form-tag-helper">The Form Tag Helper</a>
-- ==Additional attributes==: Form Action, Input, Textarea, Label, Validation, Select Tag Helpers
+- <b>Additional attributes</b>: Form Action, Input, Textarea, Label, Validation, Select Tag Helpers
 - [Tag Helpers in forms in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-8.0#the-form-tag-helper)
 ```
 // The Form Tag Helper
