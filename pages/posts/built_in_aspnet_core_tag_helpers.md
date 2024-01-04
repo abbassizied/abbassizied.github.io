@@ -23,7 +23,7 @@ author: Abbassi Zied
 
 
 ## <a name="id-anchor-tag-helper">Anchor Tag Helper</a>
-- ==Add new attributes to the standard HTML anchor (<a></a>) tag.==
+- <b>Add new attributes to the standard HTML anchor "a" tag.</b>
 - ==By convention==, the attribute names are prefixed with ==asp-==. 
 - The ==asp-controller== attribute assigns the controller used for generating the URL.
 - The ==asp-action== attribute value represents the controller action name included in the generated href attribute. 
