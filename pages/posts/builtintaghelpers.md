@@ -1,17 +1,17 @@
 ---
 type: posts
 title: Summary For Built-in ASP.NET Core Tag Helpers
-date: 2024/01/01
+date: 2023/12/28
 tag: web development
 ---
 
 
 # Built-in ASP.NET Core Tag Helpers
 
-1. [Anchor Tag Helper](#id-anchor-tag-helper)
-2. [Cache Tag Helper](#id-cache-tag-helper)
-3. [The Form Tag Helper](#id-the-form-tag-helper)
-4. [Partial Tag Helper](#id-partial-tag-helper)
+1. [Anchor Tag Helper](#anchor-tag-helper)
+2. [Cache Tag Helper](#cache-tag-helper)
+3. [The Form Tag Helper](#form-tag-helper)
+4. [Partial Tag Helper](#partial-tag-helper)
 
 ## The difference between HTML Helpers and Tag Helpers
 - Tag Helpers are a new feature in MVC that you can use for generating HTML. The syntax looks same like as HTML but its processed by Razor on the server. 
@@ -21,8 +21,8 @@ tag: web development
 - Not every Html helper has an equivalent Tag helper. So use Tag helpers in favor of Html helpers if there is an equivalent. Otherwise, use Html helpers.
 
 
-## <a name="id-anchor-tag-helper">Anchor Tag Helper</a>
-- **Add new attributes to the standard HTML anchor "a" tag.**
+## Anchor Tag Helper
+- Add new attributes to the standard HTML anchor (```<a ... ></a>```) tag.
 - **By convention**, the attribute names are prefixed with **asp-**. 
 - The **asp-controller** attribute assigns the controller used for generating the URL.
 - The **asp-action** attribute value represents the controller action name included in the generated href attribute. 
@@ -62,7 +62,7 @@ var parms = new Dictionary<string, string>
 ```
  
 
-## <a name="id-cache-tag-helper">Cache Tag Helper</a>
+## Cache Tag Helper
 - The Cache Tag Helper provides the ability to improve the performance of your ASP.NET Core app by caching its content to the internal ASP.NET Core cache provider. 
 - **Additional attributes**: vary-by-header, vary-by-query, vary-by-route, vary-by-cookie, vary-by-user, priority 
 ```
@@ -80,7 +80,7 @@ var parms = new Dictionary<string, string>
 </cache>
 ```
 
-## <a name="id-the-form-tag-helper">The Form Tag Helper</a>
+## Form Tag Helper
 - **Additional attributes**: Form Action, Input, Textarea, Label, Validation, Select Tag Helpers
 - [Tag Helpers in forms in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-8.0#the-form-tag-helper)
 ```
@@ -96,7 +96,7 @@ var parms = new Dictionary<string, string>
 </form>
 ```
 
-## <a name="id-partial-tag-helper">Partial Tag Helper</a>
+## Partial Tag Helper
 - The Partial Tag Helper is used for rendering a partial view in Razor Pages and MVC apps. 
 - Is an alternative to HTML Helper syntax.
 - The name attribute is required. It indicates the name or the path of the partial view to be rendered.
@@ -106,4 +106,3 @@ var parms = new Dictionary<string, string>
 <partial name="Shared/_ProductPartial.cshtml" for="Product">
 <partial name="_ProductPartial" model='new Product { Number = 1, Name = "Test product", Description = "This is a test" }'>
 ```
- 
