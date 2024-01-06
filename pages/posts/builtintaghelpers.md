@@ -1,9 +1,8 @@
 ---
 type: posts
 title: Summary For Built-in ASP.NET Core Tag Helpers
-date: 2023/12/28
-tag: web development, Cheat Sheet
-author: Abbassi Zied
+date: 2024/01/01
+tag: web development
 ---
 
 
