@@ -1,13 +1,10 @@
-###
 
 [🏠 Home](./index.md) | 
 [🧩 Projects](./projects.md) | 
 [🧪 Mini-Projects](./mini-projects.md) | 
 [📰 Posts](./posts.md)
 
----
-
-###
+--- 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=abbassizied&border_radius=4.6&short_numbers=true&date_format=j%2Fn%5B%2FY%5D&mode=weekly)](https://git.io/streak-stats)
 

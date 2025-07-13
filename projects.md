@@ -1,4 +1,3 @@
-###
 
 [🏠 Home](./index.md) | 
 [🧩 Projects](./projects.md) | 
@@ -13,7 +12,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 --- 
 
-<details>
+<details markdown="1">
 <summary><b>👨‍💻 Dev Projects</b></summary>
 
 ## 👨‍💻 **Dev Projects**
@@ -48,7 +47,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 ---
 
-<details>
+<details markdown="1">
 <summary><b>🚀 DevOps Projects</b></summary>
 
 ## 🚀 **DevOps Projects**
@@ -66,7 +65,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 ---
 
-<details>
+<details markdown="1">
 <summary><b>🛡️ Cybersecurity Projects</b></summary>
 
 ## 🛡️ **Cybersecurity Projects**
@@ -82,7 +81,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 ---
 
-<details>
+<details markdown="1">
 <summary><b>🎨 Frontend Projects</b></summary>
 
 ## 🎨 **Frontend Projects**
@@ -100,7 +99,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 ---
 
-<details>
+<details markdown="1">
 <summary><b>☁️ Cloud Projects</b></summary>
 
 ## ☁️ **Cloud Projects**
@@ -113,7 +112,7 @@ A categorized showcase of my major personal and professional projects. Each sect
 
 ---
 
-<details>
+<details markdown="1">
 <summary><b>🤖 AI Projects</b></summary>
 
 ## 🤖 **AI Projects**
