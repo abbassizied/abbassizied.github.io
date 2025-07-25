@@ -12,7 +12,7 @@ A chronological showcase of my learning journey and mini-projects. Each entry hi
 
 ---
 
-## 🗓️ 2025
+## 🗓️ 2026
 
 ### 🟢 January  
 
@@ -24,9 +24,9 @@ A chronological showcase of my learning journey and mini-projects. Each entry hi
 
 ---
 
-## 🗓️ 2024
+## 🗓️ 2025
 
-### 🟢 January  
+### 🟢 August  
 
 #### 🧠 [Spring Boot + REST API](https://github.com/yourusername/project-title)
 - 📅 **Date:** 2024-01-05  
@@ -40,25 +40,22 @@ A chronological showcase of my learning journey and mini-projects. Each entry hi
 - 📝 **Description:** Configured GitHub Actions to automatically build and test a Python app. Deployed to Heroku on merge.  
 - 🏷️ **Keywords:** `ci/cd`, `github actions`, `automation`
 
-### 🟢 February  
-
 #### 🧠 [React + Tailwind Portfolio](https://github.com/yourusername/project-title)
 - 📅 **Date:** 2024-02-14  
 - 🥅 **Goal:** Build a responsive UI  
 - 📝 **Description:** Built a personal portfolio using React and TailwindCSS. Focused on accessibility and responsive design.  
 - 🏷️ **Keywords:** `react`, `tailwind`, `frontend`
 
----
+### 🟢 July  
 
-## 🗓️ 2023
-
-### 🟢 March  
-
-#### 🧠 [Python Web Scraper](https://github.com/yourusername/project-title)
-- 📅 **Date:** 2023-03-10  
-- 🥅 **Goal:** Learn data extraction techniques  
-- 📝 **Description:** Developed a web scraper to collect and store product data in MongoDB. Used `requests`, `BeautifulSoup`, and `pymongo`.  
-- 🏷️ **Keywords:** `python`, `web scraping`, `mongodb`
+#### 🧠 **[GraalVM Native Image with Distroless Docker](https://github.com/abbassizied/spring-boot-native-graalvm)**  
+- 📅 **Date:** 2025-07-25  
+- 🥅 **Goal:** Build a secure, lightweight native executable using GraalVM and Distroless  
+- 📝 **Description:**  
+  - Built a production-ready **GraalVM Native Image** using a multi-stage Docker build.  
+  - Final stage deployed on a **Distroless base image** (~383MB) for minimal footprint and enhanced security.  
+  - Learned advanced Docker optimizations and GraalVM native compilation.  
+- 🏷️ **Keywords:** `graalvm`, `docker`, `distroless`, `native-image`, `containers`, `devops`
 
 ---
 
