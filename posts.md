@@ -14,6 +14,9 @@ Welcome to my collection of blog posts where I share lessons learned, practical 
 
 ### 📅 Archive
 
+- 📌 **July 25, 2025** — [Setting JAVA_HOME on Windows: A No-Frills Guide](./posts/2025-07-25-setting-java-home-windows.md)  
+  *A step-by-step walkthrough to manually configure `JAVA_HOME` and PATH variables on Windows 10, with troubleshooting tips to avoid common pitfalls.*
+  
 - 📌 **March 1, 2024** — [How I Built a Serverless Resume](./posts/2024-01-01-post1.md)  
   *Learn how I used AWS services like Lambda, S3, and Route 53 to host and automate my resume site entirely serverlessly.*
 
