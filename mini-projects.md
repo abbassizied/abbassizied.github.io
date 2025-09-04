@@ -26,25 +26,19 @@ A chronological showcase of my learning journey and mini-projects. Each entry hi
 
 ## 🗓️ 2025
 
-### 🟢 August  
+### 🟢 September  
 
-#### 🧠 [Spring Boot + REST API](https://github.com/yourusername/project-title)
-- 📅 **Date:** 2024-01-05  
-- 🥅 **Goal:** Build a REST API with Java  
-- 📝 **Description:** Created a CRUD-based product catalog using Spring Boot and JPA. Implemented clean architecture and Swagger documentation.  
-- 🏷️ **Keywords:** `spring boot`, `java`, `rest api`
+#### 🧠 [RabbitMQ 101 - Microservices with RabbitMQ and MySQL](https://github.com/abbassizied/rabbitmq-101)
+- 📅 **Date:** 2025-09-04  
+- 🥅 **Goal:** Understand message-driven microservices architecture  
+- 📝 **Description:** Built a microservices system with Spring Boot, RabbitMQ, and MySQL. Implemented Product, Customer, and Order services, each with its own database. Used RabbitMQ fanout exchanges for data replication (Product & Customer → Order). Docker Compose orchestrates the full stack (MySQL, RabbitMQ, phpMyAdmin). Includes Swagger API docs, centralized logging, and health monitoring.  
+- 🏷️ **Keywords:** `spring-boot`, `rabbitmq`, `mysql`, `microservices`, `docker`, `event-driven`, `replication`
 
-#### 🧠 [CI/CD with GitHub Actions](https://github.com/yourusername/project-title)
-- 📅 **Date:** 2024-01-22  
-- 🥅 **Goal:** Automate testing and deployment  
-- 📝 **Description:** Configured GitHub Actions to automatically build and test a Python app. Deployed to Heroku on merge.  
-- 🏷️ **Keywords:** `ci/cd`, `github actions`, `automation`
-
-#### 🧠 [React + Tailwind Portfolio](https://github.com/yourusername/project-title)
-- 📅 **Date:** 2024-02-14  
-- 🥅 **Goal:** Build a responsive UI  
-- 📝 **Description:** Built a personal portfolio using React and TailwindCSS. Focused on accessibility and responsive design.  
-- 🏷️ **Keywords:** `react`, `tailwind`, `frontend`
+#### 🧠 [Kafka 101 - Microservices with Kafka and MySQL](https://github.com/abbassizied/kafka-101)
+- 📅 **Date:** 2025-09-02
+- 🥅 **Goal:** Learn event-driven microservices with Kafka
+- 📝 **Description:** Implemented a microservices architecture using Spring Boot, Apache Kafka, and MySQL. Built Product, Customer, and Order services that communicate asynchronously via Kafka events. Designed local data replication in the Order Service to ensure decoupling and resilience. Containerized the entire stack with Docker Compose, including MySQL, Kafdrop, and phpMyAdmin for monitoring and debugging.
+- 🏷️ **Keywords:** `kafka`, `spring boot`, `microservices`, `mysql`, `docker`, `event-driven`
 
 ### 🟢 July  
 
